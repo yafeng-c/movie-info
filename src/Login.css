@@ -1,0 +1,41 @@
+.loginPage {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.loginForm {
+  background-color: purple;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm > input {
+  margin-bottom: 20px;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding-left: 8px;
+}
+
+.loginForm > input:focus {
+  outline: none;
+}
+
+.loginForm > button {
+  border-radius: 50px;
+  background-color: purple;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border: 2px solid white;
+}
+
+.loginForm > button:focus {
+  outline: none;
+}

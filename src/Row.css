@@ -1,0 +1,78 @@
+.row {
+  margin-left: 20px;
+  color: white;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.movie {
+  display: grid;
+  justify-items: center;
+  margin-right: 10px;
+  transition: transform 450ms;
+  position: relative;
+}
+
+.row_poster {
+  width: 100px;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.movie_title {
+  margin-top: 8px;
+  max-width: 100px;
+  display: inline-block;
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row_posterLarge {
+  max-width: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09);
+  opacity: 1;
+}
+
+.playButton {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 1.2rem;
+}
+
+.playButton:before {
+  content: "\f144";
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  color: #1db954;
+  font-family: "Font Awesome 5 free";
+  font-size: 25px;
+}
+
+.playButton.play:before {
+  content: "\f144";
+}
+
+.playButton.pause:before {
+  content: "\f28b";
+}

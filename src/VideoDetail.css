@@ -1,0 +1,82 @@
+.video {
+  min-height: 100vh;
+  overflow: hidden;
+}
+.video_info {
+  padding-top: 50px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.video_poster {
+  width: 300px;
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.video_text {
+  color: white;
+  margin-right: 40px;
+}
+
+.video_name {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.video_subline {
+  font-size: 13px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video_overview {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.MuiSvgIcon-root {
+  margin: 5px;
+  color: purple;
+}
+
+.video_comments {
+  display: grid;
+  place-items: center;
+  margin: 40px;
+}
+
+.comment_write {
+  position: relative;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.comment_write > input {
+  border: none;
+  margin: 0 18px;
+  flex: 1;
+}
+
+.comment_write > input:focus {
+  outline: none;
+}
+
+.commentButton {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  cursor: pointer;
+}
+
+.posted_comments {
+  width: 80%;
+}

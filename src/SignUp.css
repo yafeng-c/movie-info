@@ -1,0 +1,41 @@
+.signupPage {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.signupForm {
+  background-color: purple;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.signupForm > input {
+  margin-bottom: 20px;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding-left: 8px;
+}
+
+.signupForm > input:focus {
+  outline: none;
+}
+
+.signupForm > button {
+  border-radius: 50px;
+  background-color: purple;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border: 2px solid white;
+}
+
+.signupForm > button:focus {
+  outline: none;
+}
